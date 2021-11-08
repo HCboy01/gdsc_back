@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
                 type: DataTypes.INTEGER,
                 allowNull: false,
                 autoIncrement: true,
-                primatyKey: true,
+                primaryKey: true,
             },
             user_id: {
                 type: DataTypes.STRING(20),
@@ -39,14 +39,6 @@ module.exports = (sequelize, DataTypes) => {
             is_auth: {
                 type: DataTypes.BOOLEAN,
                 allowNull: false,
-            },
-            created_at: {
-                type: DataTypes.DATETIME,
-                allowNull: false,
-            },
-            updated_at: {
-                type: DataTypes.DATETIME,
-                allowNull: false
             },
 
         },

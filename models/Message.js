@@ -5,20 +5,12 @@ module.exports = (sequelize, DataTypes) => {
             id: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
-                aoutoIncrement: true,
+                autoIncrement: true,
                 primaryKey: true,
             },
             content: {
                 type: DataTypes.TEXT,
                 allowNull: false,
-            },
-            created_at: {
-                type: DataTypes.DATETIME,
-                allowNull: false,
-            },
-            updated_at: {
-                type: DataTypes.DATETIME,
-                allowNull: false
             },
         },
         { timestamps:true, underscored: true }

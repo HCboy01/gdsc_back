@@ -45,7 +45,6 @@ db.Message = require("./Message")(sequelize, Sequelize);
 db.Board.belongsTo(db.User, {foreignKey: "user_id"} );
 
 db.Board.belongsTo(db.User, {foreignKey: "user_id"} );
-db.Board.belongsTo(db.Board, {foreignKey: "content"} );
 db.Board.belongsTo(db.BoardCategory, {foreignKey: "board_category_id"} );
 
 db.Comment.belongsTo(db.Board, {foreignKey: "board_id"} );

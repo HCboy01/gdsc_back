@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "gdsctime",
+    "password": "rlagudcks3311!",
+    "database": "gdsc_back",
     "host": "127.0.0.1",
+    "port": "2110",
     "dialect": "mysql",
     "dialectOptions": {
       "dateStrings": true, 
